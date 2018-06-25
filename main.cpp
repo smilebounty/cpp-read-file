@@ -8,6 +8,9 @@ char buffer[100];
 int main(int argc, char const *argv[]) {
 
   fstream file;
+  //mac ver.
+  //file.open("/Users/smilebounty/Desktop/atom/git/read_file/test.txt", ios::in);
+  //windows ver.
   file.open("test.txt", ios::in);
 
   if(!file){
@@ -20,6 +23,6 @@ int main(int argc, char const *argv[]) {
     file.close();
   }
 
-  system("pause");
+  //system("pause");
   return 0;
 }
