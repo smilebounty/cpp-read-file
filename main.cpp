@@ -12,6 +12,7 @@ int main(int argc, char const *argv[]) {
   //file.open("/Users/smilebounty/Desktop/atom/git/read_file/test.txt", ios::in);
   //windows ver.
   file.open("test.txt", ios::in);
+  //update testing
 
   if(!file){
     std::cout << "can't open file" << '\n';
